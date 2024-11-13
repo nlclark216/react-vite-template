@@ -1,8 +1,26 @@
-# React + Vite
+# My React Vite Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I am learning React and Vite!
 
-Currently, two official plugins are available:
+## How to clone
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The command that you will run to clone the repo is this:
+
+```sh
+npx tiged <YOUR-GH-USERNAME>/my-react-vite-template#main <new-project-name>
+```
+
+(You can substitute your GitHub username for `<YOUR-GH-USERNAME>`.)
+
+This command will create a clone of the repo' `main` branch under the name
+<new-project-name> in the directory where it is run.
+
+### Install npm
+
+Run `npm install` and `npm run dev` at the root of the directory to install and run the project.
+
+#### Make it your own
+
+Customize __index.html__ to make it your own by editing the `title` - change it from "App Academy Template" to your own customized title.
+
+Make sure the `"name"` section of __package.json__ matches the project name in the command you used above.
